@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://scic-task-two.netlify.app'],
+  origin: ['http://localhost:5173', 'https://hold-info.vercel.app'],
   credentials: true,
   optionSuccessStatus: 200,
 };
